@@ -1,0 +1,22 @@
+# Create a `.gitignore`** so we don't push model checkpoints or W&B cache (these can be huge)
+
+# Model checkpoints & saved models
+checkpoints/
+best_model/
+final_model/
+eval_logs/
+
+# W&B cache
+wandb/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+[INFO] Creating 4 parallel HalfCheetah-v5 environments...
+[INFO] Initialising SAC on HalfCheetah-v5...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manda/Desktop/Projects/RL Locomotion Control/train.py", line 182, in <module>
+    train()
+  File "/mnt/c/Users/manda/Desktop/Projects/RL Locomotion Control/train.py", line 148, in train
+    model = SAC(
+TypeError: SAC.__init__() got an unexpected keyword argument 'policy_frequency'
+Traceback (most recent call last):
+  File "/mnt/c/Users/manda/Desktop/Projects/RL Locomotion Control/train.py", line 182, in <module>
+    train()
+  File "/mnt/c/Users/manda/Desktop/Projects/RL Locomotion Control/train.py", line 148, in train
+    model = SAC(
+TypeError: SAC.__init__() got an unexpected keyword argument 'policy_frequency'
